@@ -1,0 +1,26 @@
+body {
+    background-color: lightcyan;
+    text-align: center;
+    border: 1px solid black;
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+select{
+    margin-bottom: 10px;
+}
+
+.botoes{
+    margin: 10px 0;
+}
+
+label{
+    display: block;
+    margin: 10px;
+}

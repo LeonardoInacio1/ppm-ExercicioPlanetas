@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetas</title>
+    <link href="estilo.css" rel="stylesheet">
+        
+</head>
+<body>
+    <h1> Peso nos Planetas</h1>
+    <div class = "tabela">
+        <img src="./imagem/tabela.png">
+    </div>
+        <label>Planeta:</label>
+        <select id = "comboPlaneta">
+            <option value="">Selecione um planeta</option>
+            <option value = "mercurio">Mercúrio</option>
+            <option value = "venus">Vênus</option>
+            <option value = "marte">Marte</option>
+            <option value = "jupiter">Júpiter</option>
+            <option value = "saturno">Saturno</option>
+            <option value = "urano">Urano</option>
+        </select>
+        
+    <div class="peso">
+        <label for="peso">Digite seu peso:</label>
+        <input type="number" name="peso" id="peso">
+    </div>
+
+    <div class = 'botoes'>
+        <button id="calculo">Calcular</button>
+        <button id="cancelar">Cancelar</button>
+    </div> 
+        
+    <script src="script.js"></script>
+</body>
+</html>
